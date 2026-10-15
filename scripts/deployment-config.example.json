@@ -1,0 +1,19 @@
+{
+  "subscriptionId": "<your-subscription-guid>",
+  "resourceGroup": "<your-gateway-resource-group>",
+  "gatewayName": "<your-ai-gateway-name>",
+  "modelAccountName": "<your-model-account-name>",
+  "gatewayOrigin": "https://<your-ai-gateway-runtime-hostname>",
+  "comparisonResourceGroup": "<your-comparison-resource-group>",
+  "comparisonGatewayName": "<your-apim-service-name>",
+  "comparisonFoundryName": "<your-foundry-account-name>",
+  "comparisonProjectName": "<your-foundry-project-name>",
+  "comparisonGatewayOrigin": "https://<your-apim-service-name>.azure-api.net",
+  "databricksResourceGroup": "<your-databricks-resource-group>",
+  "databricksWorkspaceName": "<your-databricks-workspace-name>",
+  "databricksOrigin": "https://<your-workspace-hostname>.azuredatabricks.net",
+  "monitoringInsightsName": "<your-application-insights-name>",
+  "monitoringWorkspaceName": "<your-log-analytics-workspace-name>",
+  "contentSafetyAccountName": "<your-content-safety-account-name>",
+  "contentSafetyLocation": "<your-azure-region>"
+}

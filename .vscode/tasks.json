@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build PoC",
+      "type": "shell",
+      "command": "npm run build",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "Run PoC",
+      "type": "shell",
+      "command": "npm start",
+      "dependsOn": "Build PoC",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": { "regexp": "^$", "file": 1, "location": 2, "message": 3 },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^>.*start",
+          "endsPattern": "^PoC listening"
+        }
+      }
+    }
+  ]
+}
